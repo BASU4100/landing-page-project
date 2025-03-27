@@ -12,6 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding: 16px 16vw;
 }
 
 .logo {
@@ -32,10 +33,14 @@ a, .text {
     font-size: 18px;
 }
 
+.text {
+    margin: 0 60px 14px 0;
+}
+
 .section1 {
     background-color: #1f2937;
     display: flex;
-    padding: 100px 0;
+    padding: 100px 16vw;
 }
 
 .hero {
@@ -49,7 +54,7 @@ a, .text {
 }
 
 .text {
-    margin-bottom: 14px;
+    margin: 0 4vw 14px 0;
 }
 
 button {
@@ -106,20 +111,20 @@ button {
 
 .section3 {
     background-color: #e5e7eb;
-    padding: 100px 0;
+    padding: 100px 16vw;
 }
 
 .quote {
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
-    padding: 0 60px;
+    padding: 0 7vw;
 }
 
 .credit {
     font-size: 18px;
     font-weight: bold;
-    padding: 0 60px;
+    padding: 0 9vw;
     text-align: end;
 }
 
@@ -129,7 +134,7 @@ button {
     color: #e5e7eb;
     display: flex;
     justify-content: space-around;
-    margin: 100px 0;
+    margin: 100px 16vw;
     border-radius: 8px;
 }
 
