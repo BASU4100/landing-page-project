@@ -2,3 +2,77 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+a, .text {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.section1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 60px 0;
+}
+
+.hero {
+    flex: 1;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.text {
+    margin-bottom: 14px;
+}
+
+button {
+    background-color: #2883f6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.image {
+    flex: 1;
+    background-color: #a9a9a97d;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-title {
+    text-align: center;
+    padding: 20px 0;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
